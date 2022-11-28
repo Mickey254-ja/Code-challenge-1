@@ -1,0 +1,19 @@
+{
+  "name": "code-challenge-1",
+  "version": "1.0.0",
+  "description": "grading speed and salary challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mickey254-ja/Code-challenge-1.git"
+  },
+  "author": "mickey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mickey254-ja/Code-challenge-1/issues"
+  },
+  "homepage": "https://github.com/Mickey254-ja/Code-challenge-1#readme"
+}
