@@ -10,6 +10,10 @@ function speedDetector(speed){
     }
     else {
         let demeritPoint = ((speed-70)/5)
-        console.log
+        console.log("demerit points:"+ demeritPoint)
+        if (demeritPoint > 12){
+            console.log("Licence suspended")
+        }
     }
 }
+console.log (speedDetector(180))
