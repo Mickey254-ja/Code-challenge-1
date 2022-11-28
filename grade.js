@@ -1,7 +1,8 @@
 //Grade student marks as input by a user
-let grade = (prompt("Enter students marks"))
+function gradeGenerator(marks){
 
-If (marks <= 100 && marks >79){
+
+if (marks <= 100 && marks >79){
     console.log("A")
 }
 else if (marks <= 79 && marks >=60){
@@ -12,10 +13,14 @@ else if (marks <=59 && marks >= 50){
 }
 else if (marks <=49 && marks >=40){
     console.log("D")
-}else if (marks <40 && >=0){
-    console.log
+}else if (marks <40 &&marks >= 0){
+    console.log("E")
 }
-
+else {
+    console.log("Invalid grade")
+}
+}
+console.log(gradeGenerator(100))
 
 
 
