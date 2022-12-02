@@ -11,7 +11,7 @@ function tax(gross_pay){
   let nssf= 200;
   let total_deductions;
   let net_salary;
-  if (gross_pay < 24001){
+  if (gross_pay < 24001){//beginning of if statement
     paye = gross_pay * 0.1;
   } 
   else if (gross_pay < 32334){
