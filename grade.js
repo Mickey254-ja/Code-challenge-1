@@ -1,7 +1,7 @@
 //Grade student marks as input by a user
 function gradeGenerator(marks){
 
-
+//beginning of if statement
 if (marks <= 100 && marks >79){
     console.log("A")
 }
